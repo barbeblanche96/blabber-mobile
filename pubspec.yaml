@@ -1,0 +1,36 @@
+name: blabber_mobile
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.5
+  get: 4.6.5
+  flutter_feathersjs: ^4.1.5
+  shared_preferences: ^2.2.0
+  intl: ^0.18.1
+  flutter: 
+    sdk: flutter
+  flutter_local_notifications: ^14.1.1
+
+dev_dependencies: 
+  flutter_lints: ^2.0.2
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: fonts/Raleway-Regular.ttf
+        - asset: fonts/Raleway-Italic.ttf
+          style: italic
+    - family: RobotoMono
+      fonts:
+        - asset: fonts/Roboto-Regular.ttf
+        - asset: fonts/Roboto-Bold.ttf
+          weight: 700
+
